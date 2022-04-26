@@ -1,0 +1,5 @@
+@function convertPXfromRem($px) {
+  $result: 1;
+  $result: $px / 16px;
+  @return $result;
+}

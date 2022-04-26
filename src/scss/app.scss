@@ -1,0 +1,21 @@
+@import "./funcoes.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
